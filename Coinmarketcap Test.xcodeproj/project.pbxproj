@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		306FA06121414797005C7348 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306FA06021414797005C7348 /* Alamofire.framework */; };
+		306FA0692141604F005C7348 /* MarketCapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA0682141604F005C7348 /* MarketCapService.swift */; };
+		306FA06B21416133005C7348 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA06A21416133005C7348 /* Coin.swift */; };
+		306FA07021416299005C7348 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306FA06F21416299005C7348 /* SwiftyJSON.framework */; };
+		306FA07221416385005C7348 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA07121416385005C7348 /* Network.swift */; };
+		306FA074214164C2005C7348 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA073214164C2005C7348 /* Constants.swift */; };
+		306FA07621416777005C7348 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA07521416777005C7348 /* Log.swift */; };
+		306FA0782141AE22005C7348 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA0772141AE22005C7348 /* TableViewController.swift */; };
+		306FA07A2141C550005C7348 /* ImageCacheLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306FA0792141C550005C7348 /* ImageCacheLoader.swift */; };
 		30DB643E214050F40082A21E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB643D214050F40082A21E /* AppDelegate.swift */; };
-		30DB6440214050F40082A21E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB643F214050F40082A21E /* ViewController.swift */; };
-		30DB6443214050F40082A21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB6441214050F40082A21E /* Main.storyboard */; };
+		30DB6443214050F40082A21E /* Table.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB6441214050F40082A21E /* Table.storyboard */; };
 		30DB6445214050F60082A21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DB6444214050F60082A21E /* Assets.xcassets */; };
 		30DB6448214050F60082A21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DB6446214050F60082A21E /* LaunchScreen.storyboard */; };
+		30DB6454214051F60082A21E /* TableInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB644F214051F60082A21E /* TableInterfaces.swift */; };
+		30DB6455214051F60082A21E /* TablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB6450214051F60082A21E /* TablePresenter.swift */; };
+		30DB6457214051F60082A21E /* TableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB6452214051F60082A21E /* TableInteractor.swift */; };
+		30DB6458214051F60082A21E /* TableWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB6453214051F60082A21E /* TableWireframe.swift */; };
+		30DB6460214052B00082A21E /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB645B214052B00082A21E /* BaseWireframe.swift */; };
+		30DB6461214052B00082A21E /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB645C214052B00082A21E /* UIStoryboardExtension.swift */; };
+		30DB6462214052B00082A21E /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB645D214052B00082A21E /* PresenterInterface.swift */; };
+		30DB6463214052B00082A21E /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB645E214052B00082A21E /* ViewInterface.swift */; };
+		30DB6464214052B00082A21E /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB645F214052B00082A21E /* InteractorInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		306FA06021414797005C7348 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		306FA0682141604F005C7348 /* MarketCapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCapService.swift; sourceTree = "<group>"; };
+		306FA06A21416133005C7348 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		306FA06F21416299005C7348 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../minexsystems/wallet-ios-app/Carthage/Build/iOS/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		306FA07121416385005C7348 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		306FA073214164C2005C7348 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		306FA07521416777005C7348 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		306FA0772141AE22005C7348 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		306FA0792141C550005C7348 /* ImageCacheLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheLoader.swift; sourceTree = "<group>"; };
 		30DB643A214050F40082A21E /* Coinmarketcap Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coinmarketcap Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DB643D214050F40082A21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30DB643F214050F40082A21E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30DB6442214050F40082A21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30DB6442214050F40082A21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Table.storyboard; sourceTree = "<group>"; };
 		30DB6444214050F60082A21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30DB6447214050F60082A21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30DB6449214050F60082A21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DB644F214051F60082A21E /* TableInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInterfaces.swift; sourceTree = "<group>"; };
+		30DB6450214051F60082A21E /* TablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePresenter.swift; sourceTree = "<group>"; };
+		30DB6452214051F60082A21E /* TableInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInteractor.swift; sourceTree = "<group>"; };
+		30DB6453214051F60082A21E /* TableWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableWireframe.swift; sourceTree = "<group>"; };
+		30DB645B214052B00082A21E /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		30DB645C214052B00082A21E /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		30DB645D214052B00082A21E /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		30DB645E214052B00082A21E /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		30DB645F214052B00082A21E /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306FA06121414797005C7348 /* Alamofire.framework in Frameworks */,
+				306FA07021416299005C7348 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306FA05F21414797005C7348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				306FA06F21416299005C7348 /* SwiftyJSON.framework */,
+				306FA06021414797005C7348 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		306FA06521414E40005C7348 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				306FA06D21416142005C7348 /* Services */,
+				306FA06C21416138005C7348 /* Models */,
+				306FA06E21416152005C7348 /* Utils */,
+				306FA073214164C2005C7348 /* Constants.swift */,
+				306FA07521416777005C7348 /* Log.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		306FA06C21416138005C7348 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				306FA06A21416133005C7348 /* Coin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		306FA06D21416142005C7348 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				306FA0682141604F005C7348 /* MarketCapService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		306FA06E21416152005C7348 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				306FA07121416385005C7348 /* Network.swift */,
+				306FA0792141C550005C7348 /* ImageCacheLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		30DB6431214050F40082A21E = {
 			isa = PBXGroup;
 			children = (
 				30DB643C214050F40082A21E /* Coinmarketcap Test */,
 				30DB643B214050F40082A21E /* Products */,
+				306FA05F21414797005C7348 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +138,39 @@
 			isa = PBXGroup;
 			children = (
 				30DB643D214050F40082A21E /* AppDelegate.swift */,
-				30DB643F214050F40082A21E /* ViewController.swift */,
-				30DB6441214050F40082A21E /* Main.storyboard */,
+				30DB6459214051FE0082A21E /* Table */,
+				306FA06521414E40005C7348 /* Common */,
+				30DB645A214052B00082A21E /* Base VIPER Interfaces V2 */,
 				30DB6444214050F60082A21E /* Assets.xcassets */,
 				30DB6446214050F60082A21E /* LaunchScreen.storyboard */,
 				30DB6449214050F60082A21E /* Info.plist */,
 			);
 			path = "Coinmarketcap Test";
+			sourceTree = "<group>";
+		};
+		30DB6459214051FE0082A21E /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				30DB644F214051F60082A21E /* TableInterfaces.swift */,
+				30DB6450214051F60082A21E /* TablePresenter.swift */,
+				306FA0772141AE22005C7348 /* TableViewController.swift */,
+				30DB6452214051F60082A21E /* TableInteractor.swift */,
+				30DB6453214051F60082A21E /* TableWireframe.swift */,
+				30DB6441214050F40082A21E /* Table.storyboard */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		30DB645A214052B00082A21E /* Base VIPER Interfaces V2 */ = {
+			isa = PBXGroup;
+			children = (
+				30DB645B214052B00082A21E /* BaseWireframe.swift */,
+				30DB645C214052B00082A21E /* UIStoryboardExtension.swift */,
+				30DB645D214052B00082A21E /* PresenterInterface.swift */,
+				30DB645E214052B00082A21E /* ViewInterface.swift */,
+				30DB645F214052B00082A21E /* InteractorInterface.swift */,
+			);
+			path = "Base VIPER Interfaces V2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +183,7 @@
 				30DB6436214050F40082A21E /* Sources */,
 				30DB6437214050F40082A21E /* Frameworks */,
 				30DB6438214050F40082A21E /* Resources */,
+				306FA06221414AE8005C7348 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -124,31 +234,65 @@
 			files = (
 				30DB6448214050F60082A21E /* LaunchScreen.storyboard in Resources */,
 				30DB6445214050F60082A21E /* Assets.xcassets in Resources */,
-				30DB6443214050F40082A21E /* Main.storyboard in Resources */,
+				30DB6443214050F40082A21E /* Table.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		306FA06221414AE8005C7348 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30DB6436214050F40082A21E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DB6440214050F40082A21E /* ViewController.swift in Sources */,
+				30DB6464214052B00082A21E /* InteractorInterface.swift in Sources */,
+				306FA0692141604F005C7348 /* MarketCapService.swift in Sources */,
+				30DB6457214051F60082A21E /* TableInteractor.swift in Sources */,
+				30DB6454214051F60082A21E /* TableInterfaces.swift in Sources */,
+				30DB6460214052B00082A21E /* BaseWireframe.swift in Sources */,
+				306FA074214164C2005C7348 /* Constants.swift in Sources */,
+				306FA07621416777005C7348 /* Log.swift in Sources */,
+				306FA07221416385005C7348 /* Network.swift in Sources */,
+				30DB6462214052B00082A21E /* PresenterInterface.swift in Sources */,
+				306FA06B21416133005C7348 /* Coin.swift in Sources */,
+				306FA07A2141C550005C7348 /* ImageCacheLoader.swift in Sources */,
+				30DB6461214052B00082A21E /* UIStoryboardExtension.swift in Sources */,
+				306FA0782141AE22005C7348 /* TableViewController.swift in Sources */,
 				30DB643E214050F40082A21E /* AppDelegate.swift in Sources */,
+				30DB6455214051F60082A21E /* TablePresenter.swift in Sources */,
+				30DB6458214051F60082A21E /* TableWireframe.swift in Sources */,
+				30DB6463214052B00082A21E /* ViewInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30DB6441214050F40082A21E /* Main.storyboard */ = {
+		30DB6441214050F40082A21E /* Table.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				30DB6442214050F40082A21E /* Base */,
 			);
-			name = Main.storyboard;
+			name = Table.storyboard;
 			sourceTree = "<group>";
 		};
 		30DB6446214050F60082A21E /* LaunchScreen.storyboard */ = {
@@ -282,6 +426,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RVKP8MCVP4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Coinmarketcap Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +448,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RVKP8MCVP4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Coinmarketcap Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
